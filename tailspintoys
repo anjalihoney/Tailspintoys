@@ -1,0 +1,74 @@
+﻿<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <!-- Compiled and minified CSS -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+ <title>Tailspin Toys</title>
+</head>
+<style>
+ table {
+   font-family: arial, sans-serif;
+   border-collapse: collapse;
+   margin-left: 150px;
+ }
+  td, th {
+   border: 1px solid #dddddd;
+   text-align: left;
+   padding: 15px;
+ }
+  tr:nth-child(even) {
+   background-color: #dddddd;
+ }
+ </style>
+<body class="grey lighten-3" >
+
+
+   <!--Navbar-->
+   <nav class="z-depth-0 grey lighten-4">
+       <ul id="nav-mobile" class="right hide-on-med-and-down">
+           <li style="width: 140px; margin-top: 5px; color: black; font-family: Arial, Helvetica, sans-serif; font-size: x-large; margin-right: 990px;">Tailspin Toys</li>
+           <li style="color: black; font-family: Arial, Helvetica, sans-serif; margin-top: 5px; width: 160px;font-weight: lighter">Home</li>
+       </ul>
+   </nav>
+
+
+   <p style="margin-left: 150px; font-family: Arial, Helvetica, sans-serif; font-weight: bold; font-size: xx-large; height: 5px; ">Weclome to Tailspin Toys v2</p>
+   <p style="margin-left: 150px; margin-top: 50px;font-family: Arial, Helvetica, sans-serif; font-size: 18px;">Current inventory:</p>
+     <table>
+       <tr>
+         <th>ID</th>
+         <th>Quantity</th>
+         <th>Title</th>
+         <th>Description</th>
+       </tr>
+       <tr>
+         <td>1</td>
+         <td>10</td>
+         <td>Outtop Foam throwing Glider </td>
+         <td>Foam throeing Glider Airplane</td>
+
+
+       </tr>
+       <tr>
+         <td>2</td>
+         <td>20</td>
+         <td>Fascinations Metal Earth 3D Laser Cut Model</td>
+         <td>Wright brothers Airplane made of 3d laser cut metal</td>
+       </tr>
+       <tr>
+         <td>3</td>
+         <td>30</td>
+         <td>Vintage Model USMC Corsair Model Airplane</td>
+         <td>Complete kit with realistic marking scheme</td>
+       </tr>
+       <tr>
+         <td>4</td>
+         <td>40</td>
+         <td>Delta Diecast Model Airplane</td>=
+         <td>Delta Single Plane Replica</td>
+
+
+       </tr>
+     </table>
